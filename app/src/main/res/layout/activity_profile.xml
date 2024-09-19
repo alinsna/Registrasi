@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Tambahkan gambar profil di atas informasi -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/gambar"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Kotak untuk menampilkan Nama -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        android:textSize="18sp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Kotak untuk menampilkan Email -->
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Kotak untuk menampilkan Nomor HP -->
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor HP: "
+        android:textSize="18sp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Kotak untuk menampilkan Jenis Kelamin -->
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin: "
+        android:textSize="18sp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
